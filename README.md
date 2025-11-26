@@ -1,7 +1,7 @@
 # Robustness Test & Validation Suite
 
 ## 📋 Project Overview
-This software suite serves as the validation component for the **Search Video Optimisation (SVO)** project. While the main SVO app is designed for client-specific data, this suite stress-tests the machine learning pipeline against an **external dataset** of 60 videos (30 International, 30 Singaporean).
+This software suite serves as the validation component for the **Search Video Optimisation (SVO)** project (https://github.com/shawnva-1996/svo-va). While the main SVO app is designed for client-specific data, this suite stress-tests the machine learning pipeline against an **external dataset** of 60 videos (30 International, 30 Singaporean).
 
 **Key Capabilities:**
 * **Data Leakage Detection:** Scripts specifically designed to strip post-event metrics (e.g., Play Counts) to ensure model integrity.
