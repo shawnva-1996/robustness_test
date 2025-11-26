@@ -1,0 +1,93 @@
+feature,importance
+num__speaking_rate,22
+num__cap_punctuation_count,14
+num__month,13
+num__audio_loudness_rms,10
+num__avg_colorfulness,9
+num__transcript_word_count,8
+num__avg_sharpness,8
+num__Video Duration (s),5
+num__emoji_count,4
+num__cos_hour,4
+num__avg_brightness,3
+cat__llm_topic_Product Comparison,0
+cat__hour_bucket_late,0
+cat__audio_tempo_bpm_[123.046875],0
+cat__audio_tempo_bpm_[117.45383523],0
+cat__audio_tempo_bpm_[112.34714674],0
+cat__audio_tempo_bpm_[107.66601562],0
+cat__audio_tempo_bpm_[103.359375],0
+cat__hour_bucket_work,0
+cat__llm_topic_Tutorial/How-To,0
+cat__audio_tempo_bpm_[129.19921875],0
+remainder__Creator Verified,0
+cat__hour_bucket_evening,0
+cat__hour_bucket_commute,0
+cat__Region Flag_SG,0
+cat__Region Flag_Global,0
+cat__Video Definition_540p,0
+cat__Video Dimensions_576x576,0
+cat__Video Dimensions_576x1024,0
+cat__llm_topic_Smart Home Tour,0
+cat__audio_tempo_bpm_[143.5546875],0
+cat__audio_tempo_bpm_[135.99917763],0
+cat__llm_topic_News/Update,0
+cat__llm_topic_General Discussion,0
+cat__llm_topic_Product Review,0
+cat__time_of_day_bucket_Night,0
+cat__time_of_day_bucket_Morning,0
+cat__time_of_day_bucket_Late Night,0
+cat__time_of_day_bucket_Evening,0
+cat__time_of_day_bucket_Afternoon,0
+cat__audio_tempo_bpm_[99.38401442],0
+cat__audio_tempo_bpm_[95.703125],0
+cat__audio_tempo_bpm_[92.28515625],0
+cat__audio_tempo_bpm_[80.74951172],0
+cat__audio_tempo_bpm_[64.59960938],0
+"cat__llm_topic_Since you didn't provide a transcript, I'll wait for the text to classify it.",0
+num__keyword_setup,0
+cat__audio_tempo_bpm_[60.09265988],0
+cat__audio_tempo_bpm_[161.49902344],0
+cat__audio_tempo_bpm_[151.99908088],0
+num__keyword_automation,0
+num__keyword_google_home,0
+num__keyword_how_to,0
+num__keyword_tutorial,0
+num__brightness_fluctuation,0
+num__has_keywords,0
+num__explicit_keyword_count,0
+num__video_def_enc,0
+num__music_id_freq_enc,0
+num__is_original_sound_int,0
+num__is_verified_int,0
+num__sin_hour,0
+num__is_weekend,0
+num__day_of_month,0
+num__hour_of_day,0
+num__has_cta,0
+num__cap_ends_with_q,0
+num__mention_count,0
+num__hashtag_count,0
+num__caption_length,0
+num__aspect_ratio,0
+num__avg_contrast,0
+num__face_presence_ratio,0
+num__avg_motion,0
+num__busy_video_score,0
+num__keyword_unboxing,0
+num__keyword_review,0
+num__log1p_duration_s,0
+num__keyword_alexa,0
+num__transcript_has_cta,0
+num__transcript_question_count,0
+num__hashtag_density,0
+num__has_question,0
+num__motion_fluctuation,0
+num__uppercase_ratio,0
+num__is_prime_time,0
+num__day_of_week,0
+num__silence_ratio,0
+num__intro_motion,0
+num__intro_brightness,0
+num__cuts_per_second,0
+remainder__Is Original Sound,0

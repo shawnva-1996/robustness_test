@@ -1,0 +1,8 @@
+model,r2_train,r2_test,best_params,top_10_features
+Ridge,0.457927461836679,-11.024089822257029,{'regressor__alpha': 1.0},
+Lasso,0.4376138086358705,-9.94910440776103,{'regressor__alpha': 0.1},
+ElasticNet,0.4294057678840669,-10.022956276877414,"{'regressor__alpha': 0.1, 'regressor__l1_ratio': 0.9}",
+RandomForest,0.8905340741125778,-10.43305467643854,"{'regressor__max_depth': 10, 'regressor__n_estimators': 200}","num__Video Duration (s) (0.497), cat__Region Flag_SG (0.137), cat__Region Flag_Global (0.114), cat__Video Dimensions_576x1024 (0.095), cat__Video Dimensions_576x576 (0.085), remainder__Is Original Sound (0.060), remainder__Creator Verified (0.012), cat__Video Definition_540p (0.000), cat__Video Codec_h264 (0.000)"
+SVR,0.2942046264541228,-9.967738416274663,"{'regressor__C': 1.0, 'regressor__kernel': 'rbf'}",
+XGBoost,0.8536909372927148,-10.564194184254225,"{'regressor__learning_rate': 0.1, 'regressor__max_depth': 3, 'regressor__n_estimators': 100}","cat__Video Dimensions_576x1024 (0.433), cat__Region Flag_Global (0.370), remainder__Creator Verified (0.075), num__Video Duration (s) (0.069), remainder__Is Original Sound (0.053), cat__Video Dimensions_576x576 (0.000), cat__Video Definition_540p (0.000), cat__Video Codec_h264 (0.000), cat__Region Flag_SG (0.000)"
+LightGBM,0.22580403389221226,-9.429049392051095,"{'regressor__learning_rate': 0.05, 'regressor__n_estimators': 100, 'regressor__num_leaves': 31}","cat__Region Flag_Global (55.000), num__Video Duration (s) (45.000), cat__Video Dimensions_576x1024 (0.000), cat__Video Dimensions_576x576 (0.000), cat__Video Definition_540p (0.000), cat__Video Codec_h264 (0.000), cat__Region Flag_SG (0.000), remainder__Creator Verified (0.000), remainder__Is Original Sound (0.000)"

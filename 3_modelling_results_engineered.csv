@@ -1,0 +1,7 @@
+model,r2_train,r2_test,best_params,top_10_features
+Ridge,0.9870666898704502,-0.17738121844029253,{'regressor__alpha': 1.0},
+Lasso,0.9702584325020834,0.5487012335442423,{'regressor__alpha': 0.1},
+ElasticNet,0.9711243893461698,0.6048436197966587,"{'regressor__alpha': 0.1, 'regressor__l1_ratio': 0.9}",
+RandomForest,0.9915204101592594,0.7013700773901419,"{'regressor__max_depth': 10, 'regressor__n_estimators': 200}","num__log1p_play_count (0.956), num__Video Duration (s) (0.006), num__log1p_duration_s (0.005), num__day_of_month (0.004), num__month (0.004), num__hour_of_day (0.003), num__cap_punctuation_count (0.003), num__cos_hour (0.003), num__hashtag_count (0.003), num__caption_length (0.002)"
+SVR,0.9866458806727255,-0.3470609977919952,"{'regressor__C': 1.0, 'regressor__kernel': 'linear'}",
+LightGBM,0.8057543089898509,-1.3699619577323583,"{'regressor__learning_rate': 0.05, 'regressor__n_estimators': 100, 'regressor__num_leaves': 31}","num__log1p_play_count (40.000), num__cap_punctuation_count (18.000), num__cos_hour (12.000), num__Video Duration (s) (12.000), cat__Region Flag_Global (11.000), num__hour_of_day (7.000), cat__hour_bucket_work (0.000), cat__hour_bucket_late (0.000), cat__hour_bucket_evening (0.000), cat__hour_bucket_commute (0.000)"

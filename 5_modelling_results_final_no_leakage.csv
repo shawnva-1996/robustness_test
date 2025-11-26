@@ -1,0 +1,7 @@
+model,r2_train,r2_test,best_params,top_10_features
+Ridge,0.5881936292641157,-7.166015187075667,{'regressor__alpha': 50.0},
+Lasso,0.746835067234831,-19.59393773997516,{'regressor__alpha': 0.1},
+ElasticNet,0.1927068307048937,-6.44612832037302,"{'regressor__l1_ratio': 0.9, 'regressor__alpha': 1.0}",
+RandomForest,0.8837087857720728,-5.215554672867369,"{'regressor__n_estimators': 300, 'regressor__max_depth': 10}","num__avg_colorfulness (0.091), num__brightness_fluctuation (0.088), num__month (0.088), num__cos_hour (0.084), num__avg_sharpness (0.060), num__cuts_per_second (0.054), cat__Region Flag_Global (0.047), num__audio_loudness_rms (0.034), cat__Region Flag_SG (0.033), num__caption_length (0.033)"
+SVR,0.384156450216102,-8.062528417419617,"{'regressor__kernel': 'rbf', 'regressor__C': 1.0}",
+LightGBM,0.481816044927896,-6.238345981244901,"{'regressor__num_leaves': 31, 'regressor__n_estimators': 100, 'regressor__learning_rate': 0.05}","cat__Region Flag_Global (18.000), num__caption_length (14.000), num__avg_sharpness (14.000), num__cuts_per_second (12.000), num__brightness_fluctuation (12.000), num__cos_hour (9.000), num__intro_brightness (8.000), num__sin_hour (5.000), num__month (4.000), num__Video Duration (s) (4.000)"

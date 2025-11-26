@@ -1,0 +1,7 @@
+model,r2_train,r2_test,best_params,top_10_features
+Ridge,0.844279930032146,-4.544864868078394,{'regressor__alpha': 50.0},
+Lasso,0.9322808523235488,0.24481135163292111,{'regressor__alpha': 0.1},
+ElasticNet,0.9345120963949989,-0.20322598534779135,"{'regressor__l1_ratio': 0.9, 'regressor__alpha': 0.1}",
+RandomForest,0.9710088209359258,0.37138092545969226,"{'regressor__n_estimators': 300, 'regressor__max_depth': 20}","cat__viral_non-viral (0.548), num__hearts_per_video (0.108), num__follower_video_ratio (0.064), cat__viral_viral (0.050), cat__viral_mid-viral (0.030), num__Creator Total Heart Count (0.025), num__log1p_followers (0.020), num__Creator Follower Count (0.016), num__face_presence_ratio (0.012), num__follower_to_following_ratio (0.008)"
+SVR,0.9180918011867543,-4.7148258578684406,"{'regressor__kernel': 'linear', 'regressor__C': 0.1}",
+LightGBM,0.7366738300234483,-4.852065828750969,"{'regressor__num_leaves': 31, 'regressor__n_estimators': 100, 'regressor__learning_rate': 0.05}","num__avg_sharpness (19.000), num__follower_video_ratio (14.000), num__avg_colorfulness (10.000), num__hearts_per_video (10.000), num__hashtag_density (10.000), num__Creator Following Count (9.000), num__cap_punctuation_count (6.000), num__speaking_rate (6.000), num__follower_to_following_ratio (5.000), num__cos_hour (4.000)"

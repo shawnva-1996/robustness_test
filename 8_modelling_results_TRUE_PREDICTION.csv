@@ -1,0 +1,7 @@
+model,r2_train,r2_test,best_params,top_10_features
+Ridge,0.757753338583346,-5.176742708613108,{'regressor__alpha': 50.0},
+Lasso,0.9006267450751371,-9.613075122009654,{'regressor__alpha': 0.1},
+ElasticNet,0.46697060617184016,-4.854568731203253,"{'regressor__l1_ratio': 0.5, 'regressor__alpha': 1.0}",
+RandomForest,0.896587686664233,-4.718605017755667,"{'regressor__n_estimators': 300, 'regressor__max_depth': 10}","num__speaking_rate (0.119), num__avg_colorfulness (0.070), num__transcript_word_count (0.069), num__cos_hour (0.068), num__brightness_fluctuation (0.064), num__month (0.054), num__avg_sharpness (0.046), cat__Region Flag_Global (0.035), num__busy_video_score (0.032), cat__Region Flag_SG (0.029)"
+SVR,0.8734657563392785,-5.507538923053913,"{'regressor__kernel': 'linear', 'regressor__C': 0.1}",
+LightGBM,0.5022078547840525,-6.411568942751838,"{'regressor__num_leaves': 31, 'regressor__n_estimators': 100, 'regressor__learning_rate': 0.05}","num__speaking_rate (15.000), num__caption_length (14.000), cat__Region Flag_Global (13.000), num__cos_hour (12.000), num__brightness_fluctuation (12.000), num__avg_sharpness (12.000), num__day_of_week (7.000), num__hour_of_day (6.000), num__month (3.000), num__sin_hour (2.000)"

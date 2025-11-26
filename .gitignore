@@ -1,0 +1,40 @@
+# --- Virtual Environments ---
+# It is standard to ignore the venv folder as it is specific to your machine
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python Mechanics ---
+# Bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# --- Unit Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Environment Variables ---
+# SECURITY WARNING: Never commit .env files containing secrets
+.env
+.env.local
+.env.*
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- IDE & OS Settings ---
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Mac OS
+.DS_Store
